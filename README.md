@@ -1,9 +1,11 @@
 # DiscordCaller
- A discord bot that calls a list of numbers stored in mysql when a @everyone is issued.
+ A discord bot that calls a list of numbers stored in mysql when a @everyone is sent to a specific channel.
 
-# Classes
+# Info
+- Numbers are encrypted with a simple Fernet key.
+- Uses Twilio API for the phone calls.
 
-Secure() // This class crypts and decrypts numbers with Fernet
-Database() //This class is the bridge between the database and the code.
-DiscordApplication() //Discord application class
-TwilioApplication() //Twilio API class
+# What I learned
+- Fernet encryption in python was new to me.
+- Alot about working with Twilio.
+- This was my first freelancer project so it taught be alot about working with a client.
